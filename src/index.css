@@ -1,0 +1,15 @@
+/* * {
+  border: 1px solid red;
+} */
+
+:root {
+  --custom-primary-color: #ffa400;
+  --custom-secondary-color: #009ffd;
+  --custom-tertiary-color: #2a2a72;
+  --custom-quaternary-color: #232528;
+  --custom-quinary-color: #eaf6ff;
+}
+
+body {
+  background-color: var(--custom-quinary-color);
+}
