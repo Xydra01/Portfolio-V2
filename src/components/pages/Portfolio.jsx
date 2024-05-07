@@ -1,10 +1,10 @@
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Xydra's Portfolio</h1>
+    <div className="container">
+      <h2 className="mb-4">Xydra's Portfolio</h2>
       <div className="card-container row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
         {/* Adjust the number of columns based on the viewport size */}
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -12,17 +12,17 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -30,17 +30,17 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -48,17 +48,17 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -66,17 +66,17 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -84,17 +84,17 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div className="col mb-4">
+        <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
               src="https://placehold.co/600x400"
@@ -102,13 +102,13 @@ export default function Portfolio() {
               alt="..."
             ></img>
             <div className="card-img-overlay">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
-              <p className="card-text">Last updated 3 mins ago</p>
+              <div className="card-content">
+                <h5 className="card-title">Project Title</h5>
+                <p className="card-text">What the Project is build in/is.</p>
+                <a href="#">
+                  <i className="bi bi-github github-icon"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
