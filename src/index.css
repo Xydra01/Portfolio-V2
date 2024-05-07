@@ -10,6 +10,14 @@
   --custom-quinary-color: #eaf6ff;
 }
 
+#root {
+  padding: 0;
+}
+
+.nav {
+  background-color: var(--custom-primary-color);
+}
+
 body {
   background-color: var(--custom-quinary-color);
 }
