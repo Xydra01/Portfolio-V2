@@ -2,6 +2,8 @@
   border: 1px solid red;
 } */
 
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css');
+
 :root {
   --custom-primary-color: #ffa400;
   --custom-secondary-color: #009ffd;
@@ -14,10 +16,74 @@
   padding: 0;
 }
 
-.nav {
+.navbar {
   background-color: var(--custom-primary-color);
+  min-width: 100vw;
 }
 
-body {
-  background-color: var(--custom-quinary-color);
+h1 {
+  color: var(--custom-tertiary-color);
+}
+
+h2 {
+  color: var(--custom-quaternary-color);
+}
+
+.footer {
+  position: block;
+  bottom: 0;
+  min-width: 100vw;
+}
+
+.github-icon {
+  font-size: 2rem;
+  color: var(--custom-secondary-color);
+}
+
+.github-icon:hover {
+  animation: glow 1s infinite linear; /* Apply the glow animation on hover */
+}
+
+@keyframes glow {
+  0% {
+    color: #009ffd; /* Initial color */
+    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1); /* Add gentle glow effect */
+  }
+  50% {
+    color: #009ffd; /* Maintain color */
+    text-shadow: 0 0 10px rgba(0, 159, 253, 0.1); /* Increase glow effect */
+  }
+  100% {
+    color: #009ffd; /* Maintain color */
+    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1); /* Reduce glow effect */
+  }
+}
+
+.card-content {
+  display: none;
+  color: var(--custom-tertiary-color);
+}
+
+.card:hover .card-content {
+  display: block;
+  transition: 2s ease-in;
+}
+
+.card-img-overlay::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(234, 246, 255, 0.7);
+  border-radius: 0.25rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -1;
+}
+
+.card-img-overlay:hover::before {
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 159, 253, 0.7);
 }
