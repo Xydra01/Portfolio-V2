@@ -3,7 +3,6 @@ export default function Portfolio() {
     <div className="container">
       <h2 className="mb-4">Xydra's Portfolio</h2>
       <div className="card-container row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
-        {/* Adjust the number of columns based on the viewport size */}
         <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
