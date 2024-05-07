@@ -18,7 +18,6 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validate form data
     if (!formData.name.trim()) {
       alert('Name is required!');
       return;
@@ -31,7 +30,7 @@ export default function Contact() {
       alert('Comment must be 200 characters or less!');
       return;
     }
-    // Submit form data (you can add your submission logic here)
+
     console.log('Form submitted:', formData);
   };
 

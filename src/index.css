@@ -41,21 +41,21 @@ h2 {
 }
 
 .github-icon:hover {
-  animation: glow 1s infinite linear; /* Apply the glow animation on hover */
+  animation: glow 1s infinite linear;
 }
 
 @keyframes glow {
   0% {
-    color: #009ffd; /* Initial color */
-    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1); /* Add gentle glow effect */
+    color: #009ffd;
+    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1);
   }
   50% {
     color: #009ffd; /* Maintain color */
-    text-shadow: 0 0 10px rgba(0, 159, 253, 0.1); /* Increase glow effect */
+    text-shadow: 0 0 10px rgba(0, 159, 253, 0.1);
   }
   100% {
     color: #009ffd; /* Maintain color */
-    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1); /* Reduce glow effect */
+    text-shadow: 0 0 5px rgba(0, 159, 253, 0.1);
   }
 }
 
