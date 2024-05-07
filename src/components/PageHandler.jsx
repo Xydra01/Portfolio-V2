@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+import Footer from './Footer';
 
 export default function PageHandler() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -28,6 +29,7 @@ export default function PageHandler() {
       <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3 mt-3 w-100">{renderPage()}</main>
+      <Footer />
     </div>
   );
 }
