@@ -6,7 +6,7 @@ export default function Portfolio() {
         <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
-              src="../src/assets/images/315531093-7d155bf7-8924-43d8-b6e1-3590e90b2d98.png"
+              src="./src/assets/images/315531093-7d155bf7-8924-43d8-b6e1-3590e90b2d98.png"
               className="card-img"
               alt="MovieMania"
             ></img>
@@ -26,7 +26,7 @@ export default function Portfolio() {
         <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
-              src="../src/assets/images/20a8a169306e64d34d10a1fc2571a1eb.jpg"
+              src="./src/assets/images/20a8a169306e64d34d10a1fc2571a1eb.jpg"
               className="card-img"
               alt="..."
             ></img>
@@ -46,7 +46,7 @@ export default function Portfolio() {
         <div className="mb-4">
           <div className="card bg-dark text-white">
             <img
-              src="../src/assets/images/Challenge_04_Demo (1).gif"
+              src="./src/assets/images/Challenge_04_Demo (1).gif"
               className="card-img"
               alt="..."
             ></img>
