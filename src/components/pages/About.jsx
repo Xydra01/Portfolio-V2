@@ -4,7 +4,7 @@ export default function About() {
       <h2 className="mb-4">About Xydra</h2>
       <div className="text-center">
         <img
-          src="/src/assets/images/Xydra pfp cropped.png"
+          src="./src/assets/images/Xydra pfp cropped.png"
           className="img-fluid rounded-circle mb-4"
           alt="Xydra"
           style={{ width: '200px', height: '200px' }}
