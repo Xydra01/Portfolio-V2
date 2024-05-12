@@ -39,6 +39,11 @@ export default function Contact() {
       <h2 className="mb-4">Contact Me</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
+          <p>
+            If you'd like to get in contact with me, please fill out this form
+            with your contact information and a comment about why you wish to
+            contact me.
+          </p>
           <label htmlFor="name" className="form-label">
             Name
           </label>
@@ -96,6 +101,19 @@ export default function Contact() {
           Submit
         </button>
       </form>
+      <p>
+        Alternatively if you'd like to reach out more directly you can contact
+        me through the following:
+      </p>
+      <p>
+        Email: <a href="#">businessingway@gmail.com</a>
+      </p>
+      <p>
+        Github: <a href="#">Xydra01</a>
+      </p>
+      <p>
+        Twitter: <a href="#">XydraVT</a>
+      </p>
     </div>
   );
 }
