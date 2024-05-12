@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer mt-auto py-3 bg-dark text-white">
       <div className="container text-center">
         <div className="mb-3">
-          <a href="https://github.com/yourusername" className="github-link">
+          <a href="https://github.com/Xydra01" className="github-link">
             <i className="bi bi-github github-icon"></i> GitHub
           </a>
         </div>
